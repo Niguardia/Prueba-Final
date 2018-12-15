@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+	width: auto;
+	margin:0px;
+	padding: 0px;
+}
+body {
+	background-color: #FFFFFA;
+}
+header {
+	width: 100%;
+}
+#background-row{
+	background-color: #F0F0F0;
+	color: #B3B3B3;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+}
+.span-separador {
+	border-right: 1px solid #B3B3B3;
+	margin-right: 13px;
+	padding-right: 13px; 
+}
+.h1-estilo {
+font-size: 5em;
+
+}
+.span-app {
+	color: red;
+}
+.footer-h1 {
+	font-size: 27px;
+}
+.form-estilo {
+	margin-top: 60px;
+	background-color: #B3B3B3;
+	border-radius: 10px;
+	width: 350px;
+	text-align: center;
+	padding: 5px;
+}
+.Search {
+	color: red;
+	padding-right: 0px;
+}
+.text-search {
+	background-color: #B3B3B3;
+	border: 2px solid #B3B3B3;
+	color: white;
+	width: 250px;
+	margin-left: 10px;
+}
+.buttom-search {
+	border-radius: 5px;
+}
+#menu-bar {
+	display: none;
+	margin-top: 20px;
+}
+#menu-bar a {
+	text-decoration: none;
+}
+header nav {
+	background-color: red;
+	margin: 35px;
+	border-radius: 10px;
+	width: 100%;
+	z-index: 1;
+}
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+header nav ul li {
+	float: left;
+	border-right: 2px solid white;
+}
+header nav ul li a {
+	color: white;
+	padding: 30px;
+	display: block;
+	text-decoration: none;
+}
+.li-rojo {
+	border-right: red;
+}
+header nav ul li a:hover {
+	text-decoration: none;
+	color: white;
+}
+article h1{
+	color: red;
+	font-size: 14px;
+	width: 200px;
+}
+article div{
+	margin-bottom: 30px; 
+}
+
+@media	screen and (max-width:1000px) {
+	header nav {
+		display: none;
+		width:80%;
+		height:100%;
+		margin: 0;
+		left: -100%;
+		border-radius: 0px;
+	}
+	header nav ul li {
+		display: block;
+		float: none;
+		border-right: red;
+		border-bottom: 3px solid rgba(255,255,255,0.5)
+	}
+	#menu-bar {
+		display: block;
+		width: 100%;
+		background-color: red;
+
+	}
+	#menu-bar .img-menu {
+		display: block;
+		padding: 20px;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+		box-sizing: border-box; 
+	}
+	#menu-bar img {
+		float:right;
+		font-size: 40px;
+	}
+	#menu-bar .bt-menu {
+		font-size: 20px;
+		color: white;		
+	}
+	.footer-h1 {
+		font-size: 20px;
+	}
+	.h1-estilo {
+	font-size: 3em;
+
+}
+	.form-estilo {
+	display: none;
+	}
+	
+}
